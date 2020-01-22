@@ -6,7 +6,7 @@ body{
 	background: #fff;
 	color: #626262;
 	margin: 0;
-	font: 14px/1.7 Georgia, serif;
+	font: 400 14px/1.7 Georgia, serif;
 }
 
 img{
@@ -63,12 +63,12 @@ a:hover{
 .header{
 	width: 1062px;
 	margin: 0 auto;
-	padding: 80px 0 35px;
+	padding: 80px 0 29px;
 }
 
 .logo{
 	width: 119px;
-	margin: 0 auto 50px;
+	margin: 0 auto 51px;
 
 }
 .nav ul{
@@ -102,22 +102,24 @@ a:hover{
 
 .main-img{
 	display: block;
-	margin: 0 0 40px;
+	margin: 0 0 44px;
 }
 
 .category,
 .link{
 	display: block;
-	color: #b4ad9e;
-	font-family: Arial, Helvetica, sans-serif; 
-	margin: 0 0 20px;
-	text-transform: uppercase;
+    color: #b4ad9e;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 0 1px;
+    margin: 0 0 4px;
+    text-transform: uppercase;
 }
 
 .link{
-	margin: 0 0 0px;
+	margin: 0 0 97px;
 	display: inline-block;
 	text-decoration: none;
+	padding: 0 0 0 3px;
 }
 
 .link:hover{
@@ -126,16 +128,19 @@ a:hover{
 
 .main-article h1{
 	font-size: 36px;
-	margin: 0 0 20px;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+    padding: 0 0 0 1px;
 }
 
 .main-article p{
-	margin: 0 0 24
+	margin: 0 0 10px;
+    padding: 0 145px 0 0;
 }
 
 .main-article h2{
 	font-size: 30px;
-	margin: 0 0 20px;
+	margin: 0 0 16px;
 }
 
 .main-article h3{
@@ -145,17 +150,17 @@ a:hover{
 
 .main-article h4{
 	font-size: 18px;
-	margin: 0 0 20px;
+	margin: 0 0 22px;
 }
 
 .main-article blockquote{
-	margin: 0 0 20px;
+	margin: 0 0 16px 0;
 	text-align: center;
 }
 
 .main-article ul{
 	padding: 0;
-	margin: 0 0 20px;
+	margin: 0 0 16px;
 	list-style: none;
 }
 
@@ -174,6 +179,12 @@ a:hover{
 	border-radius: 50%;
 	vertical-align: middle;
 }
+
+.main-article ol{
+	margin: 0 0 23px;
+	padding-inline-start: 20px;
+}
+
 
 
 .footer{
